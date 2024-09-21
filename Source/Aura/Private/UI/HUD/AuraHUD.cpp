@@ -1,4 +1,4 @@
-// Unreal Engine - Gameplay Ability System - Top Down RPG by Stephen Ulibarri
+// Unreal Engine - Gameplay Ability System - Top Down RPG
 
 
 #include "UI/HUD/AuraHUD.h"
