@@ -24,9 +24,9 @@ public:
 	UAttributeSet* GetAttributeSet() const { return AttributeSet; }
 
 protected:
-	UPROPERTY(EditAnywhere, Category = Combat)
+	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
 	
-	UPROPERTY(EditAnywhere, Category = Combat)
+	UPROPERTY()
 	TObjectPtr<UAttributeSet> AttributeSet;
 };
